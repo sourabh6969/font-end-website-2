@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project-#AADF</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" media="screen and (max-width:900px)" href="phone.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="img/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="course.html">Course</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Courses</h1>
+    </section>
+   
+    <!-- Course  -->
+    <section class="course">
+        <h1>Course We Offer</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, porro!</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus minima nostrum atque laudantium?
+                    Vero, sit sapiente odit praesentium doloremque minima Lorem, ipsum dolor sit amet consectetur
+                    adipisicing elit. Dignissimos, iste!.</p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus minima nostrum atque laudantium?
+                    Vero, sit sapiente odit praesentium doloremque minima. Lorem ipsum dolor sit amet consectetur,
+                    adipisicing elit. Aperiam, doloremque.</p>
+            </div>
+            <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus minima nostrum atque laudantium?
+                    Vero, sit sapiente odit praesentium doloremque Lorem, ipsum dolor sit amet consectetur adipisicing
+                    elit. Ducimus, odit?</minima>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- facilities -->
+    <section class="facilities">
+        <h1>Our facilities</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, incidunt?</p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="img/library.png" alt="">
+                <h3>World class Library</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio, culpa.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="img/basketball.png" alt="">
+                <h3> Largest Playground</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio, culpa.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="img/cafeteria.png" alt="">
+                <h3>Tasty and Healthy Food</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio, culpa.</p>
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <!-- footer -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores eos aliquam dolorem nihil deleniti impedit
+            vitae repudiandae doloribus, <br> corporis eius dolorum voluptates fugit labore. Delectus tempora eveniet
+            suscipit at optio.</p>
+        <div class="icon">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> by Sourabh Singh</p>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- ------JavaScript for Toggle Menu----- -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0"
+        }
+        function chidewMenu() {
+            navLinks.style.right = "-200px"
+        }
+    </script>
+</body>
+
+</html>
